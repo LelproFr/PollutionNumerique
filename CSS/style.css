@@ -1,3 +1,15 @@
 .ico{
     height: 35px;
 }
+a{
+    display: block;
+
+}
+a:hover{
+
+}
+.home{
+    margin-bottom: 25px;
+    border: solid;
+
+}
