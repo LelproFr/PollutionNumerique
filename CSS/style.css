@@ -3,10 +3,23 @@
 }
 a{
     display: block;
+    border: solid;
+    width: 250px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    border-color:rgb(99, 100, 95) ;
+    margin-top: 5px;
+    border-radius: 250px;
+    transition-duration: 2s;
 
 }
 a:hover{
-
+    display: block;
+    background-color: black;
+    color: white;
+    transform: translateX(10px); 
+    transition-duration: 2s;
 }
 .home{
     margin-bottom: 25px;
