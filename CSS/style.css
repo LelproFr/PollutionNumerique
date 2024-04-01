@@ -1,43 +1,54 @@
-.ico{
+/* Styles for .ico */
+.ico {
     height: 35px;
+    content: "Icone"; /* Ajout de contenu texte "Icone" */
 }
-a{
+
+/* Styles for links */
+a {
     display: block;
-    border: solid;
     width: 250px;
-    align-items: center;
-    text-align: center;
+    align-items: center; /* Centrer verticalement */
+    text-align: center; /* Centrer horizontalement */
     color: black;
+    background-color: aqua;
+    border: solid;
     border-color: black;
     border-radius: 1cm;
     margin-top: 5px;
-    border-radius: 250px;
-    transition-duration: 1s;
-    background-color: aqua;
-
-    
-
+    transition-duration: 1s; /* Durée de transition lors du survol */
+    content: "Lien"; /* Ajout de contenu texte "Lien" */
 }
-a:hover{
-    display: block;
-    background-color: rgb(93, 35, 180);
-    color: white;
-    transform: translateX(10px); 
-    transition-duration: 1s;
 
+/* Hover effect for links */
+a:hover {
+    background-color: rgb(93, 35, 180); /* Changement de couleur de fond au survol */
+    color: white; /* Changement de couleur de texte au survol */
+    transform: translateX(10px); /* Déplacement de l'élément de 10px vers la droite au survol */
 }
-.home{
-    margin-bottom: 25px;
+
+/* Styles for .home */
+.home {
+    margin-bottom: 25px; /* Marge en bas de 25 pixels */
     border: solid;
+    content: "Accueil"; /* Ajout de contenu texte "Accueil" */
+}
 
+/* Styles for the body */
+body {
+    background-color: rgb(17, 15, 12); /* Couleur de fond du corps */
+    content: "Corps"; /* Ajout de contenu texte "Corps" */
 }
-body{
-    background-color: burlywood;
+
+/* Styles for .Textpollu */
+.Textpollu {
+    background-color: rgb(17, 15, 12); /* Couleur de fond */
+    text-justify: auto; /* Justification du texte automatique */
+    content: "Texte pollué"; /* Ajout de contenu texte "Texte pollué" */
 }
-.Textpollu{
-   background-color: burlywood;
-   text-justify: auto;
-}
-.IMGgesNumerique{
- width: 20%;
+
+/* Styles for .IMGgesNumerique */
+.IMGgesNumerique {
+    width: 20%; /* Largeur de 20% de l'espace disponible */
+    content: "Images numériques"; /* Ajout de contenu texte "Images numériques" */
 }
