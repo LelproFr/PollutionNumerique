@@ -8,21 +8,36 @@ a{
     align-items: center;
     text-align: center;
     color: black;
-    border-color:rgb(99, 100, 95) ;
+    border-color: black;
+    border-radius: 1cm;
     margin-top: 5px;
     border-radius: 250px;
-    transition-duration: 2s;
+    transition-duration: 1s;
+    background-color: aqua;
+
+    
 
 }
 a:hover{
     display: block;
-    background-color: black;
+    background-color: rgb(93, 35, 180);
     color: white;
     transform: translateX(10px); 
-    transition-duration: 2s;
+    transition-duration: 1s;
+
 }
 .home{
     margin-bottom: 25px;
     border: solid;
 
+}
+body{
+    background-color: burlywood;
+}
+.Textpollu{
+   background-color: burlywood;
+   text-justify: auto;
+}
+.IMGgesNumerique{
+ width: 20%;
 }
